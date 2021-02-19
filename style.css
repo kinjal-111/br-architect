@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+img{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clear-fix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.menu .menu-item{
+    list-style: none;
+}
+
+ul li:hover{
+    background: #DDD;
+}
+.bold{
+    font-weight: bold;
+}
+.container{
+    width: 1450px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+.container-sm{
+    width: 1500px;
+    margin: 0 auto;
+}
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-25{
+    margin-bottom: 25px;
+}
+/*************** NAVBAR ***************/
+#navbar{
+    width: 100%;
+    height: 55px;
+    padding: 10px 15px 5px 20px;
+    position: fixed;
+    background: #FFF;
+    margin: 0 auto;
+    top=0;
+    left=0;
+    box-shadow: 0px 5px 10px 0 rgba(0,0,0,0.16);
+    z-index: 9999;
+}
+.menu{
+    height: 35px;
+}
+.menu .menu-item{
+    font-size: 16px;
+    padding: 0 3px;
+    display: inline-block;
+    letter-spacing: 2px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+}
+.menu .mewu-item a{
+    color: black;
+}
+
+
+/************ SHOWCASE *************/
+#showcase img{
+    height: 100vh;
+}
+.slider-img{
+    padding-top: 50px;
+    position: relative;
+}
+
+.br{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: rgba(0,0,0,0.7);
+    color: rgba(255,255,255,0.9);
+    padding: 15px;
+    position: absolute;
+    left: 610px;
+    top: 390px;  
+}
+
+.br-content{
+    font-size: 38px;
+    font-weight: 300;
+    color: #FFF;
+    padding: 0 10px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 700px;
+    top: 405px;
+}
+
+
+/************ Projects ***********/
+.title{
+    font-size: 24px;
+    padding: 20px 0;
+    border-bottom: solid 1px #DDD;
+}
+#projects .clear-fix{
+    height: 500px;
+}
+#projects .event-card{
+    position: relative;
+}
+.button a{
+    background: #000;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 15px 10px 10px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/*********** ABOUT ************/
+#about .clear-fix{
+    height: 450px;
+}
+.event{
+    margin-top: 35px;
+    margin-right: 22px;
+}
+.col-100{
+    width: 100%;
+    
+}
+.w-100{
+    width: 100%;
+}
+.portfolio{
+    position: relative;
+}
+.description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px 0;
+}
+.event-details{
+    padding:25px 0 15px 0;   
+}
+.event-card{
+    width: 340px;
+    background: #FFF;
+}
+.event-card .para{
+    font-size: 16px;
+}
+.name {
+    font-size: 24px;
+    color: #000;
+}
+.desig{
+    font-size: 16px;
+    color: #AAA;
+    font-weight: bold;
+}
+.btn{
+    background: #DDD;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px 10px 140px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: block;
+}
+
+.btn:hover{
+    background: #BBB;
+}
+
+
+
+/*********** CONTACT ************/
+#contact p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+input[type="text"],input[type="email"]{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    border: solid 1px #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#contact .btn-send{
+    background: #000;
+    color: #FFF;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+
+
+
+/*************** MAPS **************/
+#map .container{
+    padding: 5px 0;
+}
+.grayscale{
+    filter: grayscale(60%);
+}
+
+
+/************** FOOTER ***************/
+.footer{
+    height: 70px;
+    padding: 40px 0;
+    margin: 0 auto;
+    background: #000;
+}
+
+.powered-by{
+    font-weight: 500px;
+    padding: 0 650px;
+    color: #FFF;
+    letter-spacing: 0.5px;
+}
+.author a{
+    color: #FFF;
+    text-decoration: underline;
+}
